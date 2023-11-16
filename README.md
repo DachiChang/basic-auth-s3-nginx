@@ -74,7 +74,8 @@ secretFile:
     mountTo: /etc/nginx/
 ```
 
-## package and rollout
+## Helm install
 
-- helm package YOUR_HLEM_CHART_NAME --app-version latest --version 1.0.1
-- helm upgrade --install CHART_NAME YOUR_HLEM_CHART_NAME-1.0.1.tgz  -f prod-values.yaml -n NAMESPACE
+- helm repo add basic-auth-s3-nginx https://dachichang.github.io/basic-auth-s3-nginx
+- helm repo update
+- helm upgrade --install basic-auth-s3-nginx basic-auth-s3-nginx/basic-auth-s3-nginx -f your-values.yaml -n default
