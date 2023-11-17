@@ -3,7 +3,7 @@ entries:
   basic-auth-s3-nginx:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-11-16T16:36:11.496363+08:00"
+    created: "2023-11-17T08:54:10.146704+08:00"
     description: A Helm chart for Kubernetes
     digest: ec928fc53a3f301a367058b625d1ddfa2f2d2750be2c4196fc077047f0ef23b7
     name: basic-auth-s3-nginx
@@ -11,4 +11,4 @@ entries:
     urls:
     - basic-auth-s3-nginx-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-16T16:36:11.495245+08:00"
+generated: "2023-11-17T08:54:10.145915+08:00"
